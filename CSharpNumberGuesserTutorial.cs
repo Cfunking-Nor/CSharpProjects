@@ -6,6 +6,14 @@ class Program
   {
  static void Main(string[] args)
     { 
+     //App Information
+     string appName = "Number Guesser";
+     string appVersion = "1.0.0";
+     string appAuthor = "Brad Traversy";
+     Console.ForegroundColor = ConsoleColor.Green;
+     Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
+     Console.ResetColor();
+   
     //Ask the User what his Name
     Console.WriteLine("What is your Name?");
     string inputName;
